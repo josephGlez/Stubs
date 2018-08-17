@@ -1,14 +1,14 @@
-package org.joe.demo.stubs.persistence.dao;
+package org.tech.demo.base.persistence.dao;
 
 import java.util.Collection;
 
-import org.joe.demo.stubs.persistence.model.PersonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.tech.demo.base.persistence.model.PersonEntity;
 
 //@RepositoryRestResource exposes all JpaRepository DAO methods as RESTful endpoints
 // http://localhost:8081/people

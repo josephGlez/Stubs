@@ -1,4 +1,4 @@
-package org.joe.demo.stubs.config;
+package org.tech.demo.base.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

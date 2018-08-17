@@ -1,12 +1,12 @@
-package org.joe.demo.stubs.services;
+package org.tech.demo.base.services;
 
 import java.util.Collection;
 
-import org.joe.demo.stubs.persistence.dao.PersonDAO;
-import org.joe.demo.stubs.persistence.model.PersonEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.tech.demo.base.persistence.dao.PersonDAO;
+import org.tech.demo.base.persistence.model.PersonEntity;
 
 /**
  * This is where you're business logic should reside. By placing @Transactional

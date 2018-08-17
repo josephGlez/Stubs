@@ -1,12 +1,12 @@
-package org.joe.demo.stubs;
+package org.tech.demo.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StubsApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StubsApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }

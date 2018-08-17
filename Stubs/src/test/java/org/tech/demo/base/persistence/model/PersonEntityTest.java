@@ -1,7 +1,8 @@
-package org.joe.demo.stubs.persistence.model;
+package org.tech.demo.base.persistence.model;
 
 import org.junit.Test;
 import org.meanbean.test.BeanTester;
+import org.tech.demo.base.persistence.model.PersonEntity;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import nl.jqno.equalsverifier.Warning;
