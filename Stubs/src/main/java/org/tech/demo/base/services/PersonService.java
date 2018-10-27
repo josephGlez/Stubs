@@ -9,7 +9,7 @@ import org.tech.demo.base.persistence.dao.PersonDAO;
 import org.tech.demo.base.persistence.model.PersonEntity;
 
 /**
- * This is where you're business logic should reside. By placing @Transactional
+ * This is where your business logic should reside. By placing @Transactional
  * at the class level, all functions are readOnly transactionals
  *
  */
